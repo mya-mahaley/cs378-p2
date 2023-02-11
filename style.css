@@ -1,0 +1,46 @@
+body {
+    padding-top: 10px;
+  }
+  .container-fluid {
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .subheading {
+    text-align: center;
+    color: orange;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .subheading2 {
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-style: italic;
+  }
+  
+  .food-name {
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+  }
+  
+  .food-pic {
+    width: 100%;
+    aspect-ratio: 1;
+  }
+  
+  .row {
+    padding: 20px;
+  }
+  
+  .button {
+    background-color: lightblue;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 20px;
+  }
