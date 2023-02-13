@@ -19,55 +19,119 @@
     <div class="subheading">Delicious, From-Scratch Recipes Close at Hand</div>
     <div class="subheading2">The fresh choice of UT!</div>
     <div class="container">
-      <div class="row">
+      <div class="row" style="padding: 20px">
         <div class="col">
           <img  class="food-pic" src="https://assets.bonappetit.com/photos/62b44891ac4f67616289d695/4:5/w_3116,h_3895,c_limit/0623-mac-and-cheese-recipe-lede.jpg" alt="Mac & Cheese">
         </div>
         <div class="col-6">
           <p class="food-name">mac & cheese</p>
-          <button class="button">order</button>
         </div>
         <div class="col">
-          <p class="food-name">$5</p>
-        </div>
+            <div class="row">
+              <p class="food-price">$5</p>
+            </div>  
+            <div class="row">
+              <div class="col-4">
+                  <button class="circle-button" id="decrease-0">-</button>
+              </div>
+              <div class="col-4">
+                  <p class="food-quantity" id="quantity-0">0</button>
+              </div>
+              <div class="col-4">
+                  <button class="circle-button" id="increase-0">+</button>
+              </div>
+            </div>
+          </div>
       </div>
-      <div class="row">
+      <div class="row" style="padding: 20px">
         <div class="col">
           <img class="food-pic" src="https://realhousemoms.com/wp-content/uploads/One-Pot-Alfredo-Pasta-RECIPE-CARD2.jpg" alt="Pasta">
         </div>
         <div class="col-6">
           <p class="food-name">pasta</p>
-          <button class="button">order</button>
         </div>
         <div class="col">
-          <p class="food-name">$8</p>
-        </div>
+            <div class="row">
+              <p class="food-price">$8</p>
+            </div>  
+            <div class="row">
+              <div class="col-4">
+                  <button class="circle-button" id="decrease-1">-</button>
+              </div>
+              <div class="col-4">
+                  <p class="food-quantity" id="quantity-1">0</button>
+              </div>
+              <div class="col-4">
+                  <button class="circle-button" id="increase-1">+</button>
+              </div>
+            </div>
+          </div>
       </div>
-      <div class="row">
+      <div class="row" style="padding: 20px">
         <div class="col">
           <img  class="food-pic" src="https://d4o3oxzf7m9sj.cloudfront.net/eSq31doEsxqBQiL1lHsBjqTp0Fk=/1200x0/https://media.data.statesman.com/restaurants/images/cruzteca.jpg" alt="Tacos">
         </div>
         <div class="col-6">
           <p class="food-name">tacos</p>
-          <button class="button">order</button>
         </div>
         <div class="col">
-          <p class="food-name">$8</p>
-        </div>
+            <div class="row">
+              <p class="food-price">$8</p>
+            </div>  
+            <div class="row">
+              <div class="col-4">
+                  <button class="circle-button" id="decrease-2">-</button>
+              </div>
+              <div class="col-4">
+                  <p class="food-quantity" id="quantity-2">0</button>
+              </div>
+              <div class="col-4">
+                  <button class="circle-button" id="increase-2">+</button>
+              </div>
+            </div>
+          </div>
       </div>
-      <div class="row">
+      <div class="row" style="padding: 20px">
         <div class="col">
           <img  class="food-pic" src="https://www.mexicanplease.com/wp-content/uploads/2019/10/Chicken-Tinga-Enchiladas-11.jpg" alt="Enchiladas">
         </div>
         <div class="col-6">
           <p class="food-name">enchiladas</p>
-          <button class="button">order</button>
         </div>
         <div class="col">
-          <p class="food-name">$10</p>
+          <div class="row">
+            <p class="food-price">$10</p>
+          </div>  
+          <div class="row">
+            <div class="col-4" align="center">
+                <button class="circle-button" id="decrease-3">-</button>
+            </div>
+            <div class="col-4" align="center">
+                <p class="food-quantity" id="quantity-3">0</button>
+            </div>
+            <div class="col-4" >
+                <button class="circle-button" id="increase-3">+</button>
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="row" style="padding: 20px">
+        <div class="col">
+            <p>Subtotal</p>
+        </div>
+        <div class="col">
+            <p id="subtotal">$0</p>
+        </div>
+        <div class="col" >
+            <button class="order-button" id="order-button">Order</button>
+        </div>
+        <div class="col-4" align="center">
+            <button class="clear-button" id="clear-button">Clear All</button>
+        </div>
+      
       </div>
     
     </div>
+    <script src="script.js"></script>
   </body>
 </html>

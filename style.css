@@ -28,19 +28,45 @@ body {
     font-family: 'Times New Roman', Times, serif;
     margin-bottom: 5px;
   }
+
+  .food-price {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: end;
+    margin-bottom: 5px;
+    padding: 0px;
+  }
+
+  .food-quantity {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-right: 0px;
+    align-items: center;
+  }
   
   .food-pic {
     width: 100%;
     aspect-ratio: 1;
   }
   
-  .row {
-    padding: 20px;
-  }
-  
-  .button {
+  .order-button {
     background-color: lightblue;
     border-color: black;
     border-width: 1px;
     border-radius: 20px;
+  }
+
+  .clear-button {
+    align-items: center;
+    background-color: grey;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 20px;
+  }
+
+  .circle-button {
+    align-items: center;
+    background-color: white;
+    border-color: black;
+    border-radius: 50%;
+    border-width: 1px;
   }
